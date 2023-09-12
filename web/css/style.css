@@ -1,0 +1,50 @@
+@font-face {
+	font-family: "Comic Sans MS";
+	src: url(../fonts/Comic\ Sans\ MS.ttf);
+}	
+
+body {
+	font-family: "Comic Sans MS";
+}
+
+.weather-title {
+	text-align: center;
+    border-bottom: 1px solid black;
+	padding: 20px;
+	background-color: rgb(233, 233, 233);
+}
+.weather-form-input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.weather-form-btn {
+	display: block;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 6px;
+	border-bottom: 1px solid black;
+}
+
+.weather-form-desc {
+	text-align: center;
+	height: 21px;
+}
+
+.weather-form {
+	padding: 15px;
+}
+
+.first {
+	margin-top: 20px;
+}
+
+.second {
+	margin-top: 5px;
+	border: 1px solid black;
+	border-radius: 7px;
+	background-color: rgb(233, 233, 233);
+}

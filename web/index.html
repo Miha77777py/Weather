@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script type="text/javascript" src="eel.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/weather.ico">
+</head>
+<body>
+    <main class="main">
+        <section class="weather">
+            <h1 class="weather-title">Weather</h1>
+            <div class="weather-form">
+                <input type="text" class="weather-form-input" placeholder="City">
+                <button type="button" class="weather-form-btn" onclick="getWeather()">Check</button>
+                <p class="weather-form-desc first">Result: </p>
+                <p class="weather-form-desc second"></p>
+            </div>
+        </section>
+    </main>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
