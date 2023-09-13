@@ -43,8 +43,10 @@ body {
 }
 
 .second {
+	display: block;
 	margin-top: 5px;
 	border: 1px solid black;
 	border-radius: 7px;
-	background-color: rgb(233, 233, 233);
+	margin-left: auto;
+	margin-right: auto;
 }
