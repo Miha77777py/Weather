@@ -27,12 +27,12 @@ body {
 	margin-top: 15px;
 	padding: 6px;
 	border-bottom: 1px solid black;
-	background-color: white;
+	background-color: rgb(241, 241, 241);
 	color: black;
 }
 
 .weather-form-btn:disabled {
-	background-color: rgb(241, 241, 241);
+	background-color: rgb(233, 233, 233);
 	color: rgb(185, 185, 185);
 }
 
