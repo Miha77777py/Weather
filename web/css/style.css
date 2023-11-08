@@ -38,8 +38,6 @@ body {
 
 .weather-form-desc {
 	text-align: center;
-	height: 21px;
-	flex-grow: 2;
 }
 
 .weather-form {

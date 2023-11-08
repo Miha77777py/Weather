@@ -9,10 +9,11 @@ def get_weather(place):
 	try:
 		mgr = owm.weather_manager()
 		temp = mgr.weather_at_place(place).weather.temperature("celsius")["temp"]
-		return "In " + place.title() + " is " + str(temp) + "°"
+		status = mgr.weather_at_place(place).weather.detailed_status
+		return f"In {place} is {temp}° and {status}"
 	except:
 		return "Place not found("
 
 if __name__ == "__main__":
 	eel.init("web")
-	eel.start("index.html", mode="chrome", port=8001, size=(300, 280))
+	eel.start("index.html", mode="chrome", port=8001, size=(300, 290))
